@@ -1,0 +1,19 @@
+[project]
+name = "souqpos"
+version = "1.0.0"
+description = "SouqPOS - offline-first desktop point of sale (Clean Architecture, Tkinter, SQLite)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "import-linter"]
+printer = ["python-escpos"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["benchmark: performance checks (NFR-01..03)"]
+
+[tool.coverage.run]
+source = ["src/pos"]
+omit = ["src/pos/ui_tkinter/*"]

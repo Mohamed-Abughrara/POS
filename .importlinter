@@ -1,0 +1,59 @@
+[importlinter]
+root_package = pos
+include_external_packages = True
+
+[importlinter:contract:domain-is-pure]
+name = Domain imports only the standard library (no outer layers, no tkinter/sqlite3)
+type = forbidden
+source_modules = pos.domain
+forbidden_modules =
+    pos.application
+    pos.adapters
+    pos.infrastructure
+    pos.ui_tkinter
+    pos.container
+    tkinter
+    sqlite3
+
+[importlinter:contract:application-depends-on-domain-only]
+name = Application imports only the domain
+type = forbidden
+source_modules = pos.application
+forbidden_modules =
+    pos.adapters
+    pos.infrastructure
+    pos.ui_tkinter
+    pos.container
+    tkinter
+    sqlite3
+
+[importlinter:contract:adapters-no-frameworks]
+name = Adapters import only application and domain (no frameworks)
+type = forbidden
+source_modules = pos.adapters
+forbidden_modules =
+    pos.infrastructure
+    pos.ui_tkinter
+    pos.container
+    tkinter
+    sqlite3
+
+[importlinter:contract:infrastructure-no-ui]
+name = Infrastructure does not know the UI or the adapters
+type = forbidden
+source_modules = pos.infrastructure
+forbidden_modules =
+    pos.ui_tkinter
+    pos.adapters
+    pos.container
+    tkinter
+
+[importlinter:contract:ui-uses-adapters-not-sqlite]
+name = Views never touch SQLite or infrastructure directly
+type = forbidden
+allow_indirect_imports = True
+source_modules = pos.ui_tkinter
+forbidden_modules =
+    pos.infrastructure
+    sqlite3
+    pos.domain

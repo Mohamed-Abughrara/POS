@@ -1,0 +1,90 @@
+{
+  "ok": "موافق", "cancel": "إلغاء", "save": "حفظ", "yes": "نعم", "no": "لا",
+  "app.error": "خطأ", "app.confirm": "يرجى التأكيد",
+
+  "login.title": "تسجيل الدخول", "login.username": "اسم المستخدم", "login.secret": "كلمة المرور أو الرقم السري", "login.button": "دخول",
+  "lock.title": "مقفل", "lock.hint": "{user}: أدخل كلمة المرور أو الرقم السري لفتح القفل", "lock.unlock": "فتح",
+  "approval.title": "موافقة المدير", "approval.hint": "يلزم موافقة مدير على هذا الإجراء. أدخل اسم المدير وكلمة المرور أو الرقم السري.",
+
+  "nav.checkout": "البيع", "nav.refund": "المرتجعات", "nav.shift": "الوردية", "nav.catalogue": "الأصناف",
+  "nav.stock": "المخزون", "nav.reports": "التقارير", "nav.admin": "الإدارة", "nav.lock": "قفل", "nav.logout": "خروج",
+
+  "checkout.scan": "مسح / رمز الصنف", "checkout.search": "بحث عن صنف", "checkout.add": "إضافة",
+  "checkout.subtotal": "المجموع", "checkout.discount": "الخصومات", "checkout.tax": "الضريبة", "checkout.total": "الإجمالي",
+  "checkout.qty": "الكمية", "checkout.line_discount": "خصم السطر", "checkout.cart_discount": "خصم الفاتورة",
+  "checkout.customer": "العميل", "checkout.park": "تعليق", "checkout.recall": "استرجاع", "checkout.remove": "حذف السطر",
+  "checkout.void": "إلغاء الفاتورة", "checkout.reprint": "إعادة طباعة", "checkout.pay": "دفع",
+  "checkout.fixed": "مبلغ ثابت (د.ل)", "checkout.value": "القيمة", "checkout.select_line": "اختر سطراً أولاً",
+  "checkout.no_parked": "لا توجد فواتير معلقة",
+  "customer.new": "عميل جديد", "customer.clear": "بدون عميل",
+
+  "pay.title": "الدفع", "pay.cash": "نقداً", "pay.card": "بطاقة", "pay.split": "مقسّم", "pay.tendered": "المبلغ المستلم",
+  "pay.split_cash": "الجزء النقدي (مقسّم)", "pay.card_ref": "مرجع البطاقة", "pay.change": "الباقي", "pay.confirm": "إتمام البيع",
+
+  "refund.receipt_no": "رقم الفاتورة", "refund.find": "بحث", "refund.sold": "المباع", "refund.refunded": "المرتجع",
+  "refund.remaining": "المتبقي", "refund.hint": "انقر مرتين على السطر لإدخال الكمية المراد إرجاعها.",
+  "refund.qty": "الكمية المرتجعة", "refund.reason": "السبب", "refund.process": "تنفيذ المرتجع",
+  "refund.selected": "{n} سطر محدد", "refund.nothing": "اختر سطراً واحداً على الأقل",
+
+  "shift.none": "لا توجد وردية مفتوحة", "shift.open_since": "الوردية مفتوحة منذ {time}", "shift.opening_float": "عهدة الافتتاح",
+  "shift.open": "فتح الوردية", "shift.counted": "النقد المعدود", "shift.close": "إغلاق الوردية وطباعة تقرير Z",
+  "shift.z_report": "تقرير الإغلاق (Z)", "shift.new": "تم", "shift.parked_prompt": "توجد فواتير معلقة. هل تريد إلغاءها وإغلاق الوردية؟",
+
+  "cat.products": "الأصناف", "cat.categories": "التصنيفات", "cat.customers": "العملاء", "cat.name_en": "الاسم (إنجليزي)",
+  "cat.name_ar": "الاسم (عربي)", "cat.cost": "التكلفة", "cat.reorder": "حد إعادة الطلب", "cat.unit": "الوحدة",
+  "cat.category": "التصنيف", "cat.new": "جديد", "cat.tax_percent": "الضريبة %", "cat.inclusive": "شاملة الضريبة",
+
+  "stock.low_only": "المخزون المنخفض فقط", "stock.low": "منخفض", "stock.receive": "استلام مخزون", "stock.adjust": "تسوية",
+  "stock.waste": "تالف", "stock.reason": "السبب", "stock.select": "اختر صنفاً أولاً",
+  "stock.signed_hint": "+ أو -", "stock.positive_hint": "رقم موجب",
+
+  "report.DAILY": "المبيعات اليومية", "report.BY_PRODUCT": "المبيعات حسب الصنف", "report.BY_CASHIER": "المبيعات حسب الكاشير",
+  "report.BY_PAYMENT": "المبيعات حسب طريقة الدفع", "report.TAX": "ملخص الضريبة", "report.from": "من", "report.to": "إلى",
+  "report.run": "تشغيل / تحديث", "report.export": "تصدير CSV", "report.total": "الإجمالي",
+
+  "admin.users": "المستخدمون", "admin.settings": "الإعدادات", "admin.audit": "سجل التدقيق", "admin.backup": "النسخ الاحتياطي",
+  "admin.role": "الصلاحية", "admin.locale": "اللغة", "admin.password": "كلمة المرور", "admin.pin": "الرقم السري (٤-٨ أرقام)",
+  "admin.password_hint": "اترك كلمة المرور والرقم السري فارغين للإبقاء على الحاليين.",
+  "audit.action": "الإجراء", "audit.entity": "الكيان", "audit.details": "التفاصيل",
+  "backup.now": "نسخ احتياطي الآن", "backup.restore_selected": "استعادة المحدد", "backup.restore_file": "استعادة من ملف...",
+  "backup.file": "الملف", "backup.size": "الحجم", "backup.confirm_restore": "الاستعادة تستبدل جميع البيانات الحالية وتسجل خروج الجميع. هل تريد المتابعة؟",
+
+  "setting.store_name": "اسم المتجر", "setting.store_address": "العنوان", "setting.store_phone": "الهاتف",
+  "setting.receipt_footer": "تذييل الفاتورة", "setting.discount_limit_cashier": "حد خصم الكاشير (%)",
+  "setting.variance_threshold": "فرق النقد الذي يتطلب موافقة (درهم)", "setting.idle_lock_minutes": "القفل التلقائي بعد (دقائق)",
+  "setting.hint": "المبالغ بالدرهم (١ دينار = ١٠٠٠). تُحدد نسب الضريبة لكل تصنيف من شاشة الأصناف.",
+
+  "col.item": "الصنف", "col.qty": "الكمية", "col.price": "السعر", "col.discount": "الخصم", "col.tax": "الضريبة", "col.total": "الإجمالي",
+  "col.name": "الاسم", "col.phone": "الهاتف", "col.loyalty": "رقم الولاء", "col.sku": "الرمز", "col.barcode": "الباركود",
+  "col.stock": "المتوفر", "col.active": "نشط", "col.time": "الوقت", "col.lines": "الأسطر",
+  "col.date": "التاريخ", "col.count": "العدد", "col.gross": "الإجمالي", "col.discounts": "الخصومات", "col.refunds": "المرتجعات",
+  "col.net": "الصافي", "col.product": "الصنف", "col.cashier": "الكاشير", "col.method": "الطريقة", "col.amount": "المبلغ",
+  "col.tax_rate": "نسبة الضريبة",
+
+  "method.CASH": "نقداً", "method.CARD": "بطاقة",
+  "role.CASHIER": "كاشير", "role.MANAGER": "مدير", "role.ADMIN": "مدير النظام",
+
+  "z.cashier": "الكاشير", "z.opened": "الفتح", "z.closed": "الإغلاق", "z.sales": "المبيعات", "z.gross": "إجمالي المبيعات",
+  "z.discounts": "الخصومات", "z.tax": "الضريبة", "z.refunds": "المرتجعات", "z.net": "الصافي", "z.opening_float": "عهدة الافتتاح",
+  "z.expected": "النقد المتوقع", "z.counted": "النقد المعدود", "z.variance": "الفرق",
+
+  "msg.sale_done": "تمت الفاتورة رقم {number} - {total}.", "msg.change_due": "الباقي: {change}.",
+  "msg.print_failed": "تعذرت طباعة الفاتورة؛ أعد طباعتها من شاشة البيع.", "msg.parked": "تم تعليق الفاتورة.",
+  "msg.reprinted": "تمت إعادة الطباعة.", "msg.refund_done": "تم المرتجع: {amount}.", "msg.shift_opened": "تم فتح الوردية.",
+  "msg.shift_closed": "تم إغلاق الوردية.", "msg.saved": "تم الحفظ.", "msg.stock_low": "تم الحفظ - المخزون عند حد إعادة الطلب أو أقل.",
+  "msg.exported": "تم التصدير إلى {path}", "msg.backup_done": "تم إنشاء النسخة: {path}", "msg.restored": "تمت الاستعادة. سجّل الدخول من جديد.",
+
+  "err.Unexpected": "حدث خطأ غير متوقع. تم تسجيل التفاصيل في السجل.",
+  "err.InvalidAmount": "مبلغ غير صالح.", "err.CurrencyMismatch": "عملة غير متطابقة.", "err.InvalidQuantity": "كمية غير صالحة.",
+  "err.InvalidBarcode": "باركود غير صالح.", "err.InvalidDiscount": "خصم غير صالح.", "err.InvalidTaxRate": "نسبة ضريبة غير صالحة.",
+  "err.ProductInactive": "هذا الصنف غير نشط ولا يمكن بيعه.", "err.InsufficientPayment": "المبلغ المدفوع لا يغطي الإجمالي.",
+  "err.CardReferenceMissing": "أدخل مرجع إيصال البطاقة.", "err.SaleNotEditable": "لا يمكن تعديل هذه الفاتورة.",
+  "err.SaleNotRefundable": "لا يمكن إرجاع هذه الفاتورة.", "err.RefundExceedsSold": "كمية المرتجع تتجاوز المباع (بعد خصم المرتجعات السابقة).",
+  "err.ShiftNotOpen": "افتح وردية أولاً.", "err.ShiftAlreadyOpen": "توجد وردية مفتوحة على هذه الكاشيرة.",
+  "err.DiscountLimitExceeded": "الخصم يتجاوز حدك - يلزم موافقة المدير.", "err.InvalidEntity": "بيانات غير صالحة.",
+  "err.ProductNotFound": "الصنف غير موجود.", "err.SaleNotFound": "الفاتورة غير موجودة.", "err.UserNotFound": "المستخدم غير موجود.",
+  "err.NotFound": "غير موجود.", "err.DuplicateEntity": "موجود مسبقاً.", "err.PermissionDenied": "ليست لديك صلاحية لهذا الإجراء.",
+  "err.AuthenticationFailed": "اسم المستخدم أو كلمة المرور/الرقم السري غير صحيح.", "err.ApprovalRejected": "تم رفض الموافقة.",
+  "err.ApprovalRequired": "يلزم موافقة المدير.", "err.ParkedSalesExist": "توجد فواتير معلقة.",
+  "err.InvalidDateRange": "نطاق تاريخ غير صالح.", "err.InvalidInput": "إدخال غير صالح.", "err.BackupError": "مشكلة في النسخ الاحتياطي."
+}

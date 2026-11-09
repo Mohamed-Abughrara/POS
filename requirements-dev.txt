@@ -1,0 +1,5 @@
+pytest
+pytest-cov
+import-linter
+# optional, only for real ESC/POS hardware:
+# python-escpos

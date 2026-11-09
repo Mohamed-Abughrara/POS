@@ -1,0 +1,90 @@
+{
+  "ok": "OK", "cancel": "Cancel", "save": "Save", "yes": "Yes", "no": "No",
+  "app.error": "Error", "app.confirm": "Please confirm",
+
+  "login.title": "Sign in", "login.username": "Username", "login.secret": "Password or PIN", "login.button": "Sign in",
+  "lock.title": "Locked", "lock.hint": "{user}: enter your password or PIN to unlock", "lock.unlock": "Unlock",
+  "approval.title": "Manager approval", "approval.hint": "A manager must approve this action. Enter the manager's username and password or PIN.",
+
+  "nav.checkout": "Checkout", "nav.refund": "Refunds", "nav.shift": "Shift", "nav.catalogue": "Catalogue",
+  "nav.stock": "Stock", "nav.reports": "Reports", "nav.admin": "Admin", "nav.lock": "Lock", "nav.logout": "Sign out",
+
+  "checkout.scan": "Scan / SKU", "checkout.search": "Find product", "checkout.add": "Add",
+  "checkout.subtotal": "Subtotal", "checkout.discount": "Discounts", "checkout.tax": "Tax", "checkout.total": "Total",
+  "checkout.qty": "Quantity", "checkout.line_discount": "Line discount", "checkout.cart_discount": "Cart discount",
+  "checkout.customer": "Customer", "checkout.park": "Park", "checkout.recall": "Recall", "checkout.remove": "Remove line",
+  "checkout.void": "Void cart", "checkout.reprint": "Reprint receipt", "checkout.pay": "Pay",
+  "checkout.fixed": "Fixed (LYD)", "checkout.value": "Value", "checkout.select_line": "Select a line first",
+  "checkout.no_parked": "No parked sales",
+  "customer.new": "New customer", "customer.clear": "No customer",
+
+  "pay.title": "Payment", "pay.cash": "Cash", "pay.card": "Card", "pay.split": "Split", "pay.tendered": "Cash received",
+  "pay.split_cash": "Cash part (split)", "pay.card_ref": "Card reference", "pay.change": "Change", "pay.confirm": "Complete sale",
+
+  "refund.receipt_no": "Receipt number", "refund.find": "Find", "refund.sold": "Sold", "refund.refunded": "Refunded",
+  "refund.remaining": "Remaining", "refund.hint": "Double-click a line to enter the quantity to refund.",
+  "refund.qty": "Quantity to refund", "refund.reason": "Reason", "refund.process": "Process refund",
+  "refund.selected": "{n} line(s) selected", "refund.nothing": "Choose at least one line to refund",
+
+  "shift.none": "No open shift", "shift.open_since": "Shift open since {time}", "shift.opening_float": "Opening float",
+  "shift.open": "Open shift", "shift.counted": "Counted cash", "shift.close": "Close shift and print Z-report",
+  "shift.z_report": "Z-report", "shift.new": "Done", "shift.parked_prompt": "There are parked sales. Void them and close the shift?",
+
+  "cat.products": "Products", "cat.categories": "Categories", "cat.customers": "Customers", "cat.name_en": "Name (English)",
+  "cat.name_ar": "Name (Arabic)", "cat.cost": "Cost", "cat.reorder": "Reorder level", "cat.unit": "Unit",
+  "cat.category": "Category", "cat.new": "New", "cat.tax_percent": "Tax %", "cat.inclusive": "Tax inclusive",
+
+  "stock.low_only": "Low stock only", "stock.low": "Low", "stock.receive": "Receive stock", "stock.adjust": "Adjust",
+  "stock.waste": "Waste", "stock.reason": "Reason", "stock.select": "Select a product first",
+  "stock.signed_hint": "+ or -", "stock.positive_hint": "positive number",
+
+  "report.DAILY": "Daily sales", "report.BY_PRODUCT": "Sales by product", "report.BY_CASHIER": "Sales by cashier",
+  "report.BY_PAYMENT": "Sales by payment method", "report.TAX": "Tax summary", "report.from": "From", "report.to": "To",
+  "report.run": "Run / refresh", "report.export": "Export CSV", "report.total": "Total",
+
+  "admin.users": "Users", "admin.settings": "Settings", "admin.audit": "Audit log", "admin.backup": "Backup",
+  "admin.role": "Role", "admin.locale": "Language", "admin.password": "Password", "admin.pin": "PIN (4-8 digits)",
+  "admin.password_hint": "Leave password and PIN empty to keep the current ones.",
+  "audit.action": "Action", "audit.entity": "Entity", "audit.details": "Details",
+  "backup.now": "Back up now", "backup.restore_selected": "Restore selected", "backup.restore_file": "Restore from file...",
+  "backup.file": "File", "backup.size": "Size", "backup.confirm_restore": "Restoring replaces ALL current data and signs everyone out. Continue?",
+
+  "setting.store_name": "Store name", "setting.store_address": "Address", "setting.store_phone": "Phone",
+  "setting.receipt_footer": "Receipt footer", "setting.discount_limit_cashier": "Cashier discount limit (%)",
+  "setting.variance_threshold": "Cash variance needing approval (dirhams)", "setting.idle_lock_minutes": "Auto-lock after (minutes)",
+  "setting.hint": "Amounts are in dirhams (1 LYD = 1000). Tax rates are set per category in Catalogue.",
+
+  "col.item": "Item", "col.qty": "Qty", "col.price": "Price", "col.discount": "Discount", "col.tax": "Tax", "col.total": "Total",
+  "col.name": "Name", "col.phone": "Phone", "col.loyalty": "Loyalty ID", "col.sku": "SKU", "col.barcode": "Barcode",
+  "col.stock": "In stock", "col.active": "Active", "col.time": "Time", "col.lines": "Lines",
+  "col.date": "Date", "col.count": "Count", "col.gross": "Gross", "col.discounts": "Discounts", "col.refunds": "Refunds",
+  "col.net": "Net", "col.product": "Product", "col.cashier": "Cashier", "col.method": "Method", "col.amount": "Amount",
+  "col.tax_rate": "Tax rate",
+
+  "method.CASH": "Cash", "method.CARD": "Card",
+  "role.CASHIER": "Cashier", "role.MANAGER": "Manager", "role.ADMIN": "Admin",
+
+  "z.cashier": "Cashier", "z.opened": "Opened", "z.closed": "Closed", "z.sales": "Sales", "z.gross": "Gross sales",
+  "z.discounts": "Discounts", "z.tax": "Tax", "z.refunds": "Refunds", "z.net": "Net", "z.opening_float": "Opening float",
+  "z.expected": "Expected cash", "z.counted": "Counted cash", "z.variance": "Variance",
+
+  "msg.sale_done": "Sale #{number} completed - {total}.", "msg.change_due": "Change: {change}.",
+  "msg.print_failed": "Receipt could not be printed; reprint it from Checkout.", "msg.parked": "Sale parked.",
+  "msg.reprinted": "Receipt reprinted.", "msg.refund_done": "Refund completed: {amount}.", "msg.shift_opened": "Shift opened.",
+  "msg.shift_closed": "Shift closed.", "msg.saved": "Saved.", "msg.stock_low": "Saved - stock is at or below the reorder level.",
+  "msg.exported": "Exported to {path}", "msg.backup_done": "Backup created: {path}", "msg.restored": "Backup restored. Please sign in again.",
+
+  "err.Unexpected": "Something went wrong. The details were written to the log.",
+  "err.InvalidAmount": "Invalid amount.", "err.CurrencyMismatch": "Currency mismatch.", "err.InvalidQuantity": "Invalid quantity.",
+  "err.InvalidBarcode": "Invalid barcode.", "err.InvalidDiscount": "Invalid discount.", "err.InvalidTaxRate": "Invalid tax rate.",
+  "err.ProductInactive": "This product is inactive and cannot be sold.", "err.InsufficientPayment": "The payment does not cover the total.",
+  "err.CardReferenceMissing": "Enter the card receipt reference.", "err.SaleNotEditable": "This sale can no longer be changed.",
+  "err.SaleNotRefundable": "This sale cannot be refunded.", "err.RefundExceedsSold": "Refund quantity exceeds what was sold (minus earlier refunds).",
+  "err.ShiftNotOpen": "Open a shift first.", "err.ShiftAlreadyOpen": "A shift is already open on this till.",
+  "err.DiscountLimitExceeded": "Discount above your limit - manager approval needed.", "err.InvalidEntity": "Invalid data.",
+  "err.ProductNotFound": "Product not found.", "err.SaleNotFound": "Receipt not found.", "err.UserNotFound": "User not found.",
+  "err.NotFound": "Not found.", "err.DuplicateEntity": "Already exists.", "err.PermissionDenied": "You do not have permission for this.",
+  "err.AuthenticationFailed": "Wrong username or password/PIN.", "err.ApprovalRejected": "Approval rejected.",
+  "err.ApprovalRequired": "Manager approval required.", "err.ParkedSalesExist": "Parked sales exist.",
+  "err.InvalidDateRange": "Invalid date range.", "err.InvalidInput": "Invalid input.", "err.BackupError": "Backup problem."
+}
